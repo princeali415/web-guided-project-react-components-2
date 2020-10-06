@@ -22,7 +22,9 @@ export default function App() {
   // 5- Build a `changeStatus` function that takes an id and
   // changes the `married` from true to false and viceversa
   function changeStatus(id) {
-    setMyFriends(myFriends.map())
+    setMyFriends(myFriends.map(friend => {
+
+    })
   }
 
   // STRETCH - Make a helper function that returns
