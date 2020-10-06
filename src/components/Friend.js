@@ -9,8 +9,8 @@ export default function Friend(props) {
     <div className='friend-friends container'>
       {/* 2- Fix the JSX so it displays real info coming into the component */}
       <div className='friend-info'>
-        <div >
-          <h3>Name: Jessica</h3>
+        <div>
+          <h3>Name: {}</h3>
           <p>Age: 26</p>
 
           <p>Married: yes <button>change</button></p>
