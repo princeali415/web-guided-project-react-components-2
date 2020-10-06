@@ -9,7 +9,7 @@ export default function FriendsList(props) {
     <div className='list-friends container'>
       {/* 3- We need to loop over the data rendering a Friend as we go */}
       {friends.map((friendObj) => {
-        return 'gaga'
+        return <div>the friend</div>
       })}
       {/* Each friend is going to need a `key` prop and also some other prop with data */}
     </div>
