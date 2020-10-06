@@ -10,8 +10,6 @@ import friends, { hello, goodbye } from '../dummy-data/friends'
 
 // import * as foo from '../dummy-data/friends'
 
-console.log(foo)
-
 export default function App() {
   // 3- Initialize a slice of state to keep track of the data
   // using the dummy data as the initial value of the slice of state
