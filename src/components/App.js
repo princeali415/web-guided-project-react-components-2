@@ -6,14 +6,14 @@ import FriendsList from './FriendsList'
 import Search from './Search'
 // 2- Import the dummy data that will power the application.
 // (Tomorrow we'll fetch the data from an API instead.)
-import friends, { hello, goodbye } from '../dummy-data/friends'
+import friendsDummyData, { hello, goodbye } from '../dummy-data/friends'
 
 // import * as foo from '../dummy-data/friends'
 
 export default function App() {
   // 3- Initialize a slice of state to keep track of the data
   // using the dummy data as the initial value of the slice of state
-  const [myFriends, setMyFriends] = useState(friends)
+  const [myFriends, setMyFriends] = useState(friendsDummyData)
   
   // 4- Initialize a slice to keep track of the value of the search box
   // using an empty string as the initial value of the slice
