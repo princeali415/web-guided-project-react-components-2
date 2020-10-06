@@ -26,7 +26,7 @@ export default function App() {
       // for each friend, if the friend has the given id,
       if (friend.id === id) {
         // return a copy of the friend object which has the toggled civil status
-        
+        return { ...friend,  married: !}
       }
       // otherwse return the friend unchanged
     }))
