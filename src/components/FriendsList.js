@@ -12,7 +12,7 @@ export default function FriendsList(props) {
         return (
           <Friend
             friendDetails={friendObj}
-            marriageProp={changeStatusFunc}
+            changeCivilStatus={changeStatusFunc}
             // name={friendObj.name}
             // age={friendObj.age}
             // married={friendObj.married}
