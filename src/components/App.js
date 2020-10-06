@@ -23,8 +23,10 @@ export default function App() {
   // changes the `married` from true to false and viceversa
   function changeStatus(id) {
     setMyFriends(myFriends.map(friend => {
-
-    })
+      // for each friend, if the friend has the given id,
+      // return a copy of the friend object which has the toggled civil status
+      // otherwse return the friend unchanged
+    }))
   }
 
   // STRETCH - Make a helper function that returns
