@@ -8,7 +8,7 @@ import Search from './Search'
 // (Tomorrow we'll fetch the data from an API instead.)
 import friends, { hello, goodbye } from '../dummy-data/friends'
 
-import * as foo from '../dummy-data/friends'
+// import * as foo from '../dummy-data/friends'
 
 console.log(foo)
 
