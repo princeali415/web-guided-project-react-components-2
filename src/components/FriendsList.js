@@ -3,6 +3,7 @@ import React from 'react'
 
 export default function FriendsList(props) {
   const { friends, changeStatusFunc } = props
+  debugger
   // 2- What data does FriendsList need to do its job? Use destructuring
   return (
     <div className='list-friends container'>
