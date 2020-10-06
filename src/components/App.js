@@ -1,7 +1,7 @@
 // This is the top-level component
 // so we'll keep application state at this level.
 // 1- Import the state hook!
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import FriendsList from './FriendsList'
 import Search from './Search'
 // 2- Import the dummy data that will power the application.
