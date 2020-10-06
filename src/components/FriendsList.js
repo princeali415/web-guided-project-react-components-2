@@ -11,6 +11,7 @@ export default function FriendsList(props) {
       {friends.map((friendObj) => {
         return (
           <Friend
+            
             friendDetails={friendObj}
             changeCivilStatus={changeStatusFunc}
             // name={friendObj.name}
