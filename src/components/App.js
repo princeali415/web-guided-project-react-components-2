@@ -24,11 +24,12 @@ export default function App() {
   function changeStatus(id) {
     setMyFriends(myFriends.map(friend => {
       // for each friend, if the friend has the given id,
-      if (friend.id === id) {
-        // return a copy of the friend object which has the toggled civil status
-        return { ...friend,  married: !}
-      }
-      // otherwse return the friend unchanged
+      // if (friend.id === id) {
+      //   // return a copy of the friend object which has the toggled civil status
+      //   return { ...friend,  married: !friend.married }
+      // }
+      // // otherwse return the friend unchanged
+      // return friend
     }))
   }
 
