@@ -14,7 +14,7 @@ export default function Friend(props) {
           <p>Age: {friendDetails.age}</p>
 
           <p>Married: {friendDetails.married ? 'Yes' : 'No'}
-            <button onClick={}>change</button>
+            <button onClick={evt => { changeCivilStatus }}>change</button>
           </p>
           <div>Likes:
             <ul>
