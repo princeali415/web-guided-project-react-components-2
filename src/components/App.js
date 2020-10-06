@@ -46,7 +46,7 @@ export default function App() {
       {/* STRETCH - Changes to the input should update the search term */}
 
       {/* 7- Render the FriendsList component */}
-      <FriendsList friends={myFriends} />
+      <FriendsList friends={myFriends} changeStatusFunc={changeStatus}/>
       {/* What prop/props does FriendsList need? */}
     </div>
   )
