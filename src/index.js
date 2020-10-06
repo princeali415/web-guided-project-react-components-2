@@ -4,7 +4,7 @@ import { render } from 'react-dom'
 
 // 👉 Importing the styles - the bundler does some magic!
 import './styles.less'
-
+debugger
 // 👉 Importing a React component from another file
 import App from './components/App'
 
