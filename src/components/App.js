@@ -21,6 +21,9 @@ export default function App() {
 
   // 5- Build a `changeStatus` function that takes an id and
   // changes the `married` from true to false and viceversa
+  function changeStatus(id) {
+    
+  }
 
   // STRETCH - Make a helper function that returns
   // a filtered array of friends data (filtering by search term)
