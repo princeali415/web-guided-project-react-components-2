@@ -13,7 +13,9 @@ export default function Friend(props) {
           <h3>Name: {friendDetails.name}</h3>
           <p>Age: {friendDetails.age}</p>
 
-          <p>Married: {friendDetails.married ? 'Yes' : 'No'} <button>change</button></p>
+          <p>Married: {friendDetails.married ? 'Yes' : 'No'}
+            <button onClick={}>change</button>
+          </p>
           <div>Likes:
             <ul>
               {/* 3- Loop over the friend's hobbies and generate <li/> elements as you go */}
