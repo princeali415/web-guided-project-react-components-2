@@ -1,21 +1,25 @@
 import React from 'react'
+
 import PetsList from './PetsList'
 
 export default function Friend(props) {
   // 👉 1- What does a Friend need?
-
+const { friendDetails, changeStatus} = props
   return (
     <div className='friend-friends container'>
       {/* 👉 2- Fix the JSX so it displays real info coming into the component */}
       <div className='friend-info'>
         <div >
-          <h3>Name: Jessica</h3>
-          <p>Age: 26</p>
+          <h3>Name: {friendDetails.name}</h3>
+          <p>Age: {friendDetails.age}</p>
 
-          <p>Married: yes <button>change</button></p>
+          <p>Married: {friendDetails.married ? 'Yes':'No'} <button onClick={() => {changeStatus(friendDetails.id)}}>change</button></p>
           <div>Likes:
             <ul>
               {/* 👉 3- Loop over the friend's hobbies and generate <li/> elements as you go */}
+              {friendDetails.hobbies.map(hobby => {
+                return <li key={hobby}>{hobby}</li>
+              })}
             </ul>
           </div>
         </div>
